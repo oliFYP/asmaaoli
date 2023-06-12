@@ -1,0 +1,111 @@
+@media screen and (max-width: 853px) {
+    .layout {
+      grid-template-columns: 1fr;
+      overflow: hidden;
+    
+    }
+    .side-panel {
+      position: fixed;
+   
+      top: 0;
+      right: -300px;
+      width: 300px;
+      height: 100%;
+      background-color: #fff;
+      transform: translateX(-100%);
+      transition: all 0.3s ease-in-out;
+      z-index: 1;
+    }
+    
+    .side-panel.open {
+      transform: translateX(0);
+    
+    }
+    
+    .buttonslayout-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .what-we-do{
+      grid-column: 1/ span 1;
+      grid-row: 2;
+    }
+    .what-we-do-img{
+      grid-column: 1;
+     grid-row: 3;
+    }
+    .container2{
+        grid-column: 1/ span 1;
+        grid-row: 4;
+       
+      }
+      .profileimage{
+        grid-column: 1/ span 1;
+        grid-row: 5;
+      }
+     
+      .container2 h2{
+  
+        font-size: x-large;
+      }
+      .container2 p{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        font-size: small;
+        font-weight: 600;
+      }
+      .buttonslayout{
+        display: none;
+      }
+      .login{
+        display: none;
+      }
+      
+      .top-bar{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+      }
+      .menu-logo{
+        grid-column: 2/ span 1;
+        grid-row: 1;
+        height: 50px;
+        width: auto;
+        display: flex;
+        max-height: 100%;
+        max-width: 100%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-right: 30px;
+      
+      }
+      .logo{
+        margin-left: 0px;
+      }
+      
+      .mainimage{
+        height: 100%;
+        width: auto;
+        object-fit:cover;
+        object-position: center;
+        overflow: hidden;
+        
+      }
+      .white-container {
+        width: 300px;
+      }
+      .find-coach-header {
+        font-size: 2rem;
+        margin-top: 5px;
+      }
+      .search-coach,
+      .search-field {
+        
+        width: 170px;
+        
+      }
+     
+  }
