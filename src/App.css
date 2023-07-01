@@ -112,6 +112,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   margin-left: 30px;
+  object-fit: cover;
 }
 .logo.scrolled {
   height: 30px;
