@@ -54,7 +54,7 @@ function App() {
       <div className={`top-bar${isScrolled ? ' scrolled' : ''}`}>
         <div className={`top-bar-content${isMinimized ? ' minimized' : ''}`}>
           <div className="logo-container">
-            <img src={logo} className={`logo${isScrolled ? ' scrolled' : ''}`} alt="Logo" />
+            <img src={logo} className={`logo${isScrolled ? ' scrolled' : ''}`} alt="Logo" draggable="false"/>
           </div>
 
           <div className="buttonslayout">
@@ -64,7 +64,7 @@ function App() {
             <button className={`Privacy${isScrolled ? ' scrolled' : ''}`}>Privacy</button>
           </div>
 
-          <img src={menu} alt="Menu logo" className="menu-logo" onClick={togglePanel} />
+          <img src={menu} alt="Menu logo" className="menu-logo" onClick={togglePanel} draggable="false"/>
 
           <button className="login"> Join us!</button>
 
@@ -112,10 +112,10 @@ function App() {
               </label>
             </div>
           </div>
-          <img src={main} alt="Main Image" className="mainimage" />
+          <img src={main} alt="Main Image" className="mainimage" draggable="false"/>
         </div>
 
-        <img src={coach} alt="what-we-do-img" className="what-we-do-img" />
+        <img src={coach} alt="what-we-do-img" className="what-we-do-img" draggable="false"/>
 
         <div className="what-we-do">
           <h2>What we do</h2>
@@ -135,7 +135,7 @@ function App() {
           </p>
         </div>
 
-          <img src={asma} className="asma" />
+          <img src={asma} className="asma" draggable="false"/>
 
         <div className="container2">
           <h2>About Us</h2>
@@ -165,7 +165,7 @@ function App() {
            Phone number: +44 7541 152521
           </p>
         </div>
-        <img src={oli} className="oli" />
+        <img src={oli} className="oli" draggable="false" />
       </div>
     </div>
   );
