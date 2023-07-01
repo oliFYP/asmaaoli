@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/asmaaoli/static/css/main.55992527.css",
+    "main.css": "/asmaaoli/static/css/main.df6df178.css",
     "main.js": "/asmaaoli/static/js/main.a7c3d8f6.js",
     "static/js/787.b17013c2.chunk.js": "/asmaaoli/static/js/787.b17013c2.chunk.js",
     "static/media/Mariott.otf": "/asmaaoli/static/media/Mariott.aa13595070d1fb736a61.otf",
@@ -12,12 +12,12 @@
     "static/media/Glitch.ttf": "/asmaaoli/static/media/Glitch.37ee9c9361643bfc72ea.ttf",
     "static/media/menu.png": "/asmaaoli/static/media/menu.7ff5122bb5c5ee9b759d.png",
     "index.html": "/asmaaoli/index.html",
-    "main.55992527.css.map": "/asmaaoli/static/css/main.55992527.css.map",
+    "main.df6df178.css.map": "/asmaaoli/static/css/main.df6df178.css.map",
     "main.a7c3d8f6.js.map": "/asmaaoli/static/js/main.a7c3d8f6.js.map",
     "787.b17013c2.chunk.js.map": "/asmaaoli/static/js/787.b17013c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55992527.css",
+    "static/css/main.df6df178.css",
     "static/js/main.a7c3d8f6.js"
   ]
 }
