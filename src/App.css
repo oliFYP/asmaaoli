@@ -1,6 +1,10 @@
 @font-face {
   font-family: glitch;
-  src: url('./fonts/Glitch.ttf') format('truetype');
+  src: url('../public/Glitch.ttf') format('truetype');
+}
+@font-face {
+  font-family: mario;
+  src: url('./fonts/Mariott.otf') format('truetype');
 }
 :root {
  
@@ -19,9 +23,7 @@
   z-index: 2;
   transition: all 0.3s ease;
 }
-.side-panel{
-  display: none;
-}
+
 .top-bar-content {
   display: flex;
   align-items: center;
@@ -80,7 +82,7 @@
   border-radius: 15px;
   cursor: pointer;
   font-weight: bolder;
-  font-style: glitch;
+  font-style: Arial;
   font-size: medium;
   height: 40px;
   width: 100px;
@@ -120,12 +122,12 @@
 
 }
 .login {
-  border-color: white;
-  border-width: 3px;
-  background-color: rgba(0, 0, 0, 0);
+  
+  border-width: 0px;
+  background-color: white;
   height: 40px;
   width: 150px;
-  color: white;
+  color: var(--main-color);
   border-radius: 15px;
   margin-right: 30px;
   cursor: pointer;
@@ -134,6 +136,9 @@
   transition: all 0.3s ease;
 }
 .menu-logo{
+  display: none;
+}
+.side-panel {
   display: none;
 }
 .layout{
@@ -162,26 +167,24 @@
 
 
 .find-coach-header {
-  grid-column: 1/ span 2;
-  grid-row: 1;
+ 
   font-size: 3rem;
   text-align: center;
-  margin-top: 2rem;
   z-index: 2;
-}
-
-
-
-
-
-.find-coach-header{
   position: absolute;
-  top: 20%;
+  font-family: mario;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   z-index: 1;
 }
+
+
+
+
+
+
 .search-container {
   position: absolute;
   top: 50%;
@@ -217,6 +220,7 @@ align-items: center;
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0.5rem;
+  font-family: mario;
   margin-bottom: 0.5rem;
   text-align: center;
   color: #fff;
@@ -279,7 +283,7 @@ align-items: center;
   grid-column: 2;
   grid-row: 2;
   width:100%;
-  height: auto;
+  height: 400px;
 }
 .what-we-do{
   grid-column: 1/ span 1;
@@ -288,7 +292,6 @@ align-items: center;
   color: var(--main-color);
   height: auto;
   width: 100%;
-
   display: flex;
   flex-direction: column;
  
@@ -296,39 +299,32 @@ align-items: center;
 .what-we-do h2{
   margin-left: 15px;
   text-align: left;
+  font-family: mario;
   font-size: xx-large;
 }
 .what-we-do p{
   text-align: left;
   margin-left: 15px;
+
   margin-right: 15px;
   font-size: medium;
-  font-weight: 500;
+  font-weight: 550;
 }
-.profileimage{
-  grid-column: 1/ span 1;
-  grid-row: 3;
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: 1fr;
 
-}
 .oli{
-  grid-column: 1;
-  grid-row: 2;
+  grid-column: 2/ span 1;
+  grid-row: 4;
   width:100%;
   height: auto;
 }
 .asma{
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 3;
   width:100%;
   height: auto;
 }
+.container3,
 .container2{
-  grid-column: 2/ span 1;
-  grid-row: 3;
   background-color: var(--main-color);
   color: #ffffff;
   height: auto;
@@ -338,14 +334,25 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
+.container2{
+  grid-column: 2/ span 1;
+  grid-row: 3;
+}
+.container3{
+  grid-column: 1/ span 1;
+  grid-row: 4;
+
+}
+.container3 h2,
 .container2 h2{
-  
+  font-family: mario;
   font-size: xx-large;
 }
+.container3,
 .container2 p{
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: larger;
-  font-weight: 500;
+  font-size: large;
+  padding: 20px;
+
 }
