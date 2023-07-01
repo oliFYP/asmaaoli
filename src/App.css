@@ -355,10 +355,10 @@ align-items: center;
   font-family: mario;
   font-size: xx-large;
 }
-.container3,
+.container3 p,
 .container2 p{
   font-size: medium;
-  padding: 20px;
+  padding: 10px;
   font-weight: 550;
 
 }

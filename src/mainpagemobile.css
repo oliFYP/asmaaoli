@@ -92,10 +92,10 @@
         font-size: x-large;
       }
       .container2 p{
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 10px;
         margin-bottom: 20px;
-        font-size: small;
+       text-align: left;
         font-weight: 600;
       }
       .buttonslayout{
