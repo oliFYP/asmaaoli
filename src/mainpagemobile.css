@@ -8,6 +8,10 @@
       overflow: hidden;
     
     }
+    .container3{
+      text-align: center;
+      padding-left: 0px;
+    }
     .side-panel {
       position: fixed;
       display: block;
