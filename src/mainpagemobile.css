@@ -141,8 +141,8 @@
         width: 300px;
       }
       .find-coach-header {
-        font-size: x-large;
-        margin-top: 90px;
+      
+        margin-top: 100px;
       }
       .search-coach,
       .search-field {
@@ -152,7 +152,7 @@
       }
       .find-coach-or,
       .find-coach-header {
-        font-size: 20px;
+        font-size: 22px;
       }
      
   }
