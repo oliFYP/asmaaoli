@@ -22,7 +22,7 @@
       background-color: #4B5320;
       z-index: 999;
       transition: all 0.3s ease-in-out;
-      overflow-y: auto;
+
     }
     
     .side-panel.open {
@@ -141,8 +141,8 @@
         width: 300px;
       }
       .find-coach-header {
-        font-size: 2rem;
-        margin-top: 50px;
+        font-size: x-large;
+        margin-top: 90px;
       }
       .search-coach,
       .search-field {
